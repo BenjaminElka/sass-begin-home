@@ -1,0 +1,17 @@
+.success {
+  border: 1px solid black;
+  border-radius: 10px;
+  color: green;
+}
+
+.error {
+  border: 1px solid black;
+  border-radius: 10px;
+  color: red;
+}
+
+body {
+  background-color: grey;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+@mixin message {
+    border : 1px solid black;
+    border-radius: 10px ;
+    
+}
+
+.success{
+@include message;
+color :green;
+//display: none;
+}
+.error{
+    @include message;
+    color: red;
+    
+    
+}
+body{
+    background-color: grey;
+
+}
